@@ -1,0 +1,81 @@
+.tableauViz{
+width: 100%;
+max-width: 1400px;
+}
+
+/* Reset some default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    background-color: rgb(254, 255, 255);
+    color: rgb(4, 4, 4); /* Set text color to white for better contrast */
+    text-align: center;
+}
+
+div.pookie {
+text-align: center;
+}
+
+ol.mookie{
+    display: inline-block;
+    text-align: left;
+}
+
+/* Style the Tableau visualization container */
+.tableauPlaceholder {
+    margin: 20px auto;
+    max-width: 90%;
+    position: relative;
+}
+
+/* Style the health tips list */
+#healthTips {
+    list-style-type: decimal;
+    padding-left: 20px;
+    text-align: left;
+    
+}
+
+a.btn1 {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #149ddd;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+a.btn1:hover {
+    background: #2eafec;
+    color: #fff;
+}
+
+/* Style the additional tips section */
+p {
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+/* Style the YouTube video iframe */
+iframe {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+}
+
+/* Add some basic responsiveness */
+@media (max-width: 768px) {
+    #healthTips {
+        padding-left: 10px;
+    }
+    
+    iframe {
+        max-width: 100%;
+        height: auto;
+    }
+}
